@@ -24,10 +24,10 @@ jobs:
       matrix:
         include:
           - openwrt_version: '24.10'
-            openwrt_build_version: '24.10.3'
+            openwrt_build_version: '24.10.5'
             arch: 'x86_64'
           - openwrt_version: '25.12'
-            openwrt_build_version: '25.12-SNAPSHOT'
+            openwrt_build_version: '25.12.0'
             arch: 'x86_64'
       fail-fast: false
 
